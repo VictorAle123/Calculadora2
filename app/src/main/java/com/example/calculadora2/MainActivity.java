@@ -188,7 +188,6 @@ public class MainActivity extends AppCompatActivity {
                 numero2 = Double.parseDouble(etconcatenar.getText().toString());
                 if (operador.equals("+")) {
                     etproceso.setText("");
-
                     resultado = numero1 + numero2;
 
                 }
@@ -204,8 +203,14 @@ public class MainActivity extends AppCompatActivity {
                     resultado = numero1 * numero2;
                 }
 
+                if (operador.equals("/")) {
+                    etproceso.setText("");
+                    resultado = numero1 / numero2;
+
+                }
 
 
+                etproceso.setText(String.valueOf(resultado));
 
             }
         });
