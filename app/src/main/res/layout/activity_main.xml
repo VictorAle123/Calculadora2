@@ -297,7 +297,7 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:background="#FF9800"
+                    android:background="#BA0A46"
                     android:textColor="#F3F0F6"
                     android:textSize="40dp"
                     android:text="="
